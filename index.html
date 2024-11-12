@@ -8,40 +8,46 @@
     <link href="dist/output.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Start -->
-    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
-        <div class="container">
-            <div class="flex items-center justify-between relative">
-                <div class="px-4">
-                    <a href="#home" class="font-bold text-lg text-primary block py-6">khumairammanullah</a>
-                </div>
-                <div class="flex items-center px-4">
-                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
-                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
-                    </button>
-                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none ">
-                        <ul class="block lg:flex">
-                            <li class="group">
-                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
-                            </li>
-                            <li class="group">
-                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About Me</a>
-                            </li>
-                            <li class="group">
-                                <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
-                            </li>
-                            <li class="group">
-                                <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Experiences</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+<!-- Header Start -->
+<header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container mx-auto">
+        <div class="flex items-center justify-between relative">
+            <!-- Logo -->
+            <div class="px-4">
+                <a href="#home" class="font-bold text-2xl text-primary block py-6 hover:text-secondary transition-all duration-300">
+                    Khumairammanullah
+                </a>
+            </div>
+            <!-- Navigation & Hamburger Menu -->
+            <div class="flex items-center px-4">
+                <!-- Hamburger Button -->
+                <button id="hamburger" name="hamburger" type="button" class="lg:hidden focus:outline-none">
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                </button>
+                <!-- Navigation Menu -->
+                <nav id="nav-menu" class="hidden lg:flex lg:items-center lg:space-x-6 absolute lg:static py-5 lg:py-0 bg-white lg:bg-transparent shadow-lg lg:shadow-none rounded-lg max-w-[250px] w-full right-4 top-full lg:max-w-full lg:rounded-none">
+                    <ul class="block lg:flex">
+                        <li class="group">
+                            <a href="#home" class="text-base text-dark py-2 mx-4 lg:mx-0 hover:text-primary transition-all duration-300 flex">Home</a>
+                        </li>
+                        <li class="group">
+                            <a href="#about" class="text-base text-dark py-2 mx-4 lg:mx-0 hover:text-primary transition-all duration-300 flex">About Me</a>
+                        </li>
+                        <li class="group">
+                            <a href="#portfolio" class="text-base text-dark py-2 mx-4 lg:mx-0 hover:text-primary transition-all duration-300 flex">Portfolio</a>
+                        </li>
+                        <li class="group">
+                            <a href="#blog" class="text-base text-dark py-2 mx-4 lg:mx-0 hover:text-primary transition-all duration-300 flex">Experiences</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
-    </header>
-    <!-- Header End -->
+    </div>
+</header>
+<!-- Header End -->
 
     <!-- Hero Section Start -->
     <section id="home" class="pt-36">
@@ -50,7 +56,7 @@
                 <div class="w-full self-center px-4 lg:w-1/2">
                     <h1 class="text-base font-semibold text-primary md:text-xl">Hello 👋, I'm<span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Khumair Ammanullah</span></h1>
                     <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Student Collage</h2>
-                    <p class="font-medium text-secondary mb-10 leading-relaxed">Students of Univeristas Bina Sarana Informatics in sixth semester majoring in Information Technology.
+                    <p class="font-medium text-secondary mb-10 leading-relaxed">Student of University Bina Sarana Informatika in seventh semester majoring in Information Technology.
                     </p>
                 </div>
                 <div class="w-full self-end px-4 lg:w-1/2">
@@ -224,6 +230,9 @@
                     <a href="#" class="max-w-[100px] mx-4 py-4">
                         <img src="dist/img/tools/github.png" alt="">
                     </a>
+                    <a href="#" class="max-w-[90px] mx-2 py-4">
+                        <img src="dist/img/tools/laravel.png" alt="">
+                    </a>
                 </div>
             </div>            
         </div>
@@ -240,6 +249,19 @@
             </div>
             <div class="flex flex-wrap">
                 <div class="w-full mb-4">
+                    <h3 class="font-semibold text-lg text-dark">BKPSDM Kota Tanggerang Selatan</h3>
+                    <p>July/2024 – October/2024</p>
+                    <p><strong>Web Developer Intern</strong></p>
+                    <ul class="list-disc pl-5">
+                        <li>As a Web developer intern. I made aplikasi Sistem Perjalanan Dinas (SPPD). I developed features
+                            like an interactive dashboard, role-based user management, and dynamic forms using Laravel and
+                            Bootstrap. The application is also integrated with a database to record travel expenses and provide
+                            travel history reports, helping improve the efficiency of managing official travel within the
+                            organization.
+                            </li>
+                    </ul>
+                </div>
+                <div class="w-full mb-4">
                     <h3 class="font-semibold text-lg text-dark">Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</h3>
                     <p>Februari/2024 – June/2024</p>
                     <p><strong>Cloud Computing Cohort</strong></p>
@@ -252,12 +274,12 @@
                     <h3 class="font-semibold text-lg text-dark">PT Agromedia Pustaka</h3>
                     <p>February/2020 – March/2020</p>
                     <p><strong>Human Resources Administrator Intern</strong></p>
-                    <h4 class="font-semibold">1. Data Entry and Analysis:</h4>
+                    <h4 class="font-semibold">- Data Entry and Analysis:</h4>
                     <ul class="list-disc pl-5">
                         <li>Proficient in inputting and summarizing diverse sets of data and employee biodata using Microsoft Excel.</li>
                         <li>Demonstrated expertise in utilizing Excel formulas, including Sum, Average, Vlookup, Hlookup, and Pivot, to derive meaningful insights and support decision-making processes.</li>
                     </ul>
-                    <h4 class="font-semibold">2. Document Management:</h4>
+                    <h4 class="font-semibold">- Document Management:</h4>
                     <ul class="list-disc pl-5">
                         <li>Skilled in archiving and organizing employee data and documents to ensure systematic storage and easy retrieval when needed.</li>
                     </ul>
