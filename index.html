@@ -28,7 +28,7 @@
                 </button>
                 <!-- Navigation Menu -->
                 <nav id="nav-menu" class="hidden lg:flex lg:items-center lg:space-x-6 absolute lg:static py-5 lg:py-0 bg-white lg:bg-transparent shadow-lg lg:shadow-none rounded-lg max-w-[250px] w-full right-4 top-full lg:max-w-full lg:rounded-none">
-                    <ul class="block lg:flex">
+                    <ul class="block lg:flex lg:space-x-6">
                         <li class="group">
                             <a href="#home" class="text-base text-dark py-2 mx-4 lg:mx-0 hover:text-primary transition-all duration-300 flex">Home</a>
                         </li>
@@ -53,10 +53,14 @@
     <section id="home" class="pt-36">
         <div class="container">
             <div class="flex flex-wrap">
-                <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-primary md:text-xl">Hello 👋, I'm<span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Khumair Ammanullah</span></h1>
-                    <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Student Collage</h2>
-                    <p class="font-medium text-secondary mb-10 leading-relaxed">Student of University Bina Sarana Informatika in seventh semester majoring in Information Technology.
+                <div class="w-full lg:w-1/2 text-center lg:text-left">  
+                    <h1 class="text-base md:text-xl font-semibold text-teal-600">
+                    Hello <span class="inline-block animate-wave">👋</span>, I'm
+                    <span class="block font-extrabold text-gray-900 text-4xl sm:text-5xl mt-2 lg:mt-3 tracking-tight">Khumair Ammanullah</span>
+                    </h1>
+                    <h2 class="font-medium text-teal-700 text-lg sm:text-2xl mt-3 mb-6">Student of University Bina Sarana Informatika</h2>
+                    <p class="text-gray-600 text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
+                    Currently in seventh semester, majoring in Information Technology.
                     </p>
                 </div>
                 <div class="w-full self-end px-4 lg:w-1/2">
@@ -73,6 +77,8 @@
         </div>
     </section>
     <!-- Hero Section End -->
+<hr class="border-t-2 border-gray-200 mt-[px]" />
+
 
     <!-- About Section Start -->
     <section id="about" class="pt-36 pb-32">
@@ -80,11 +86,9 @@
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-10 lg:w-1/2">
                     <h2 class="font-bold uppercase text-primary text-lg mb-3">About Me</h2>
-                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Informatics students with a strong focus on backend development. During my college years, I
-                        has actively participated in various web and application development projects with my colleagues,
-                        gain valuable hands-on experience in translating theoretical knowledge into practical applications.
-                        These projects include the creation of sophisticated information systems and a dynamic web
-                        Application. Want to expand my skills and knowledge.</p>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
+                    I am an Informatics student with a strong focus on backend development. During my college years, I have actively participated in various web and application development projects with my colleagues, gaining valuable hands-on experience in translating theoretical knowledge into practical applications. These projects include the creation of sophisticated information systems and dynamic web applications. I am eager to expand my skills and knowledge further.
+                    </p>
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
                     <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Let's be friends</h3>
@@ -198,96 +202,99 @@
         </section>
 <!-- portfolio section end -->
 
-    <!-- Clients Section start -->
+<!-- Clients Section start -->
     <section id="clients" class="pt-36 pb-32 bg-slate-800">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class=" mx-auto text-center mb-15">
-                    <h4 class=" font-semibold text-lg text-primary mb-2">Tech Stack</h4>
-                    <h4 class="font-bold text-white text-xl mb-4 sm:text-xl lg:text-3xl">Programing Language & Tools</h4>
-                </div>
+        <div class="container mx-auto px-4">
+            <div class="w-full text-center mb-16 max-w-xl mx-auto">
+            <h4 class="font-semibold text-lg text-primary mb-2">Tech Stack</h4>
+            <h4 class="font-bold text-white text-2xl sm:text-3xl lg:text-4xl">Programming Languages & Tools</h4>
             </div>
-            <div class="w-full px-4">
-                <div class="flex flex-wrap items-center justify-center">
-                    <a href="#" class="max-w-[100px] mx-4">
-                        <img src="dist/img/tools/html.png" alt="">
-                    </a>
-                    <a href="#" class="max-w-[100px] mx-4">
-                        <img src="dist/img/tools/css.png" alt="">
-                    </a>
-                    <a href="#" class="max-w-[100px] mx-4">
-                        <img src="dist/img/tools/js.png" alt="">
-                    </a>
-                    <a href="#" class="max-w-[120px] mx-4">
-                        <img src="dist/img/tools/nodejs.png" alt="">
-                    </a>
-                    <a href="#" class="max-w-[100px] mx-4">
-                        <img src="dist/img/tools/figma.png" alt="">
-                    </a>
-                    <a href="#" class="max-w-[120px] mx-4">
-                        <img src="dist/img/tools/postman.png" alt="">
-                    </a>
-                    <a href="#" class="max-w-[100px] mx-4 py-4">
-                        <img src="dist/img/tools/github.png" alt="">
-                    </a>
-                    <a href="#" class="max-w-[90px] mx-2 py-4">
-                        <img src="dist/img/tools/laravel.png" alt="">
-                    </a>
-                </div>
-            </div>            
+            <div class="w-full">
+            <div class="flex flex-wrap items-center justify-center gap-8">
+                <a href="#" class="max-w-[100px] mx-2 transition-transform duration-300 hover:scale-110">
+                <img src="dist/img/tools/html.png" alt="HTML" class="mx-auto" />
+                </a>
+                <a href="#" class="max-w-[100px] mx-2 transition-transform duration-300 hover:scale-110">
+                <img src="dist/img/tools/css.png" alt="CSS" class="mx-auto" />
+                </a>
+                <a href="#" class="max-w-[100px] mx-2 transition-transform duration-300 hover:scale-110">
+                <img src="dist/img/tools/js.png" alt="JavaScript" class="mx-auto" />
+                </a>
+                <a href="#" class="max-w-[120px] mx-2 transition-transform duration-300 hover:scale-110">
+                <img src="dist/img/tools/nodejs.png" alt="Node.js" class="mx-auto" />
+                </a>
+                <a href="#" class="max-w-[100px] mx-2 transition-transform duration-300 hover:scale-110">
+                <img src="dist/img/tools/figma.png" alt="Figma" class="mx-auto" />
+                </a>
+                <a href="#" class="max-w-[120px] mx-2 transition-transform duration-300 hover:scale-110">
+                <img src="dist/img/tools/postman.png" alt="Postman" class="mx-auto" />
+                </a>
+                <a href="#" class="max-w-[100px] mx-2 py-4 transition-transform duration-300 hover:scale-110">
+                <img src="dist/img/tools/github.png" alt="GitHub" class="mx-auto" />
+                </a>
+                <a href="#" class="max-w-[90px] mx-2 py-4 transition-transform duration-300 hover:scale-110">
+                <img src="dist/img/tools/laravel.png" alt="Laravel" class="mx-auto" />
+                </a>
+            </div>
+            </div>
         </div>
     </section>
-    <!-- Clients Section end -->
+<!-- Clients Section end -->
+
     
-    <!-- Blog Section Start -->
-    <section id="blog" class="pt-36 pb-32 bg-slate-100">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class="max-w-xl mx-auto text-center mb-16">
-                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Experiences</h2>
-                </div>
-            </div>
-            <div class="flex flex-wrap">
-                <div class="w-full mb-4">
-                    <h3 class="font-semibold text-lg text-dark">BKPSDM Kota Tanggerang Selatan</h3>
-                    <p>July/2024 – October/2024</p>
-                    <p><strong>Web Developer Intern</strong></p>
-                    <ul class="list-disc pl-5">
-                        <li>As a Web developer intern. I made aplikasi Sistem Perjalanan Dinas (SPPD). I developed features
-                            like an interactive dashboard, role-based user management, and dynamic forms using Laravel and
-                            Bootstrap. The application is also integrated with a database to record travel expenses and provide
-                            travel history reports, helping improve the efficiency of managing official travel within the
-                            organization.
-                            </li>
-                    </ul>
-                </div>
-                <div class="w-full mb-4">
-                    <h3 class="font-semibold text-lg text-dark">Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</h3>
-                    <p>Februari/2024 – June/2024</p>
-                    <p><strong>Cloud Computing Cohort</strong></p>
-                    <ul class="list-disc pl-5">
-                        <li>Participated in an intensive Google Cloud training program aimed at enhancing understanding of backend application development and qualifying as a Google Cloud Engineer.</li>
-                        <li>Involved in the development of an Android application called FitCall, creating a backend service that will later generate an API and deployed on the Google Cloud platform that utilizes machine learning to detect calorie content in food, detect calorie burn based on user activity, improve user experience and promote healthier eating habits.</li>
-                    </ul>
-                </div>
-                <div class="w-full mb-4">
-                    <h3 class="font-semibold text-lg text-dark">PT Agromedia Pustaka</h3>
-                    <p>February/2020 – March/2020</p>
-                    <p><strong>Human Resources Administrator Intern</strong></p>
-                    <h4 class="font-semibold">- Data Entry and Analysis:</h4>
-                    <ul class="list-disc pl-5">
-                        <li>Proficient in inputting and summarizing diverse sets of data and employee biodata using Microsoft Excel.</li>
-                        <li>Demonstrated expertise in utilizing Excel formulas, including Sum, Average, Vlookup, Hlookup, and Pivot, to derive meaningful insights and support decision-making processes.</li>
-                    </ul>
-                    <h4 class="font-semibold">- Document Management:</h4>
-                    <ul class="list-disc pl-5">
-                        <li>Skilled in archiving and organizing employee data and documents to ensure systematic storage and easy retrieval when needed.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Blog Section End -->
+<!-- Blog Section Start -->
+<section id="blog" class="pt-36 pb-32 bg-slate-100">
+  <div class="container mx-auto px-6">
+    <div class="w-full px-4">
+      <div class="max-w-xl mx-auto text-center mb-20">
+        <h2 class="font-extrabold text-gray-900 text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6 tracking-tight">Experiences</h2>
+        <p class="text-gray-600 text-lg sm:text-xl max-w-md mx-auto">
+          My professional and internship experiences, showcasing projects and skills acquired.
+        </p>
+      </div>
+    </div>
+    <div class="flex flex-col space-y-12 md:space-y-16">
+      <article class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
+        <h3 class="font-semibold text-xl text-gray-800 mb-1">BKPSDM Kota Tanggerang Selatan</h3>
+        <time class="text-sm text-primary font-medium mb-3 block">July/2024 – October/2024</time>
+        <p class="font-semibold text-primary mb-3">Web Developer Intern</p>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li>As a Web developer intern, I made aplikasi Sistem Perjalanan Dinas (SPPD). Developed features like interactive dashboards, role-based user management, and dynamic forms using Laravel and Bootstrap.</li>
+          <li>The application integrates a database to record travel expenses and provide travel history reports, improving official travel management efficiency.</li>
+        </ul>
+      </article>
+
+      <article class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
+        <h3 class="font-semibold text-xl text-gray-800 mb-1">Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</h3>
+        <time class="text-sm text-primary font-medium mb-3 block">Februari/2024 – June/2024</time>
+        <p class="font-semibold text-primary mb-3">Cloud Computing Cohort</p>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li>Participated in intensive Google Cloud training, enhancing backend application development skills and qualifying as a Google Cloud Engineer.</li>
+          <li>Developed an Android app backend (FitCall) with machine learning to detect calorie content and burn, deployed on Google Cloud platform to promote healthier habits.</li>
+        </ul>
+      </article>
+
+      <article class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
+        <h3 class="font-semibold text-xl text-gray-800 mb-1">PT Agromedia Pustaka</h3>
+        <time class="text-sm text-primary font-medium mb-3 block">February/2020 – March/2020</time>
+        <p class="font-semibold text-primary mb-4">Human Resources Administrator Intern</p>
+        
+        <h4 class="font-semibold text-gray-800 mb-2">Data Entry and Analysis:</h4>
+        <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+          <li>Proficient in inputting and summarizing diverse data and employee biodata using Microsoft Excel.</li>
+          <li>Utilized Excel formulas (Sum, Average, Vlookup, Hlookup, Pivot) to derive insights supporting decision-making.</li>
+        </ul>
+        
+        <h4 class="font-semibold text-gray-800 mb-2">Document Management:</h4>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li>Skilled in archiving and organizing employee data and documents for systematic storage and retrieval.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- Blog Section End -->
+
 
 
     <!-- Footer Start -->
